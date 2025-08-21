@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - VISIONATE Instituto de Capacitación Integral</title>
+  <meta name="description" content="Ponte en contacto con VISIONATE. Agenda tu consulta gratuita, solicita información sobre nuestros programas o consulta sobre servicios personalizados.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <img src="assets/logo.png" alt="VISIONATE Logo" class="logo">
+        
+        <nav class="nav">
+          <ul class="nav__menu">
+            <li><a href="index.html" class="nav__link">Inicio</a></li>
+            <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+            <li><a href="servicios.html" class="nav__link">Servicios</a></li>
+            <li><a href="programas.html" class="nav__link">Programas</a></li>
+            <li><a href="contacto.html" class="nav__link active">Contacto</a></li>
+          </ul>
+          <a href="#contact-form" class="btn btn--primary">Consulta Gratuita</a>
+        </nav>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <nav>
+        <a href="index.html" class="nav__link">Inicio</a>
+        <a href="nosotros.html" class="nav__link">Nosotros</a>
+        <a href="servicios.html" class="nav__link">Servicios</a>
+        <a href="programas.html" class="nav__link">Programas</a>
+        <a href="contacto.html" class="nav__link">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 70vh;">
+    <img src="assets/IMG_20250516_165757.jpg" alt="Equipo VISIONATE en capacitación" class="hero__background">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            <span class="text-highlight">Conversemos</span> sobre tu transformación
+          </h1>
+          <p class="hero__subtitle">
+            Estamos aquí para acompañarte en tu proceso de crecimiento personal y profesional. ¡Contáctanos hoy mismo!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opciones de Contacto Rápido -->
+    <section class="section section--gray">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">¿Cómo podemos ayudarte?</h2>
+          <p class="section__subtitle">Elige la opción que mejor se adapte a tu consulta</p>
+        </div>
+        <div class="quick-contact-grid">
+          <div class="quick-contact-card">
+            <div class="quick-contact__icon">📞</div>
+            <h3 class="quick-contact__title">Consulta Telefónica</h3>
+            <p class="quick-contact__desc">Habla directamente con nuestro equipo para resolver tus dudas al instante</p>
+            <a href="tel:+593963613630" class="btn btn--primary">Llamar Ahora</a>
+          </div>
+          <div class="quick-contact-card">
+            <div class="quick-contact__icon">💬</div>
+            <h3 class="quick-contact__title">WhatsApp</h3>
+            <p class="quick-contact__desc">Contacto rápido y directo para consultas inmediatas y programar reuniones</p>
+            <a href="https://wa.me/593963613630" class="btn btn--accent" target="_blank">Chatear por WhatsApp</a>
+          </div>
+          <div class="quick-contact-card">
+            <div class="quick-contact__icon">📧</div>
+            <h3 class="quick-contact__title">Consulta por Email</h3>
+            <p class="quick-contact__desc">Envíanos tu consulta detallada y te responderemos en menos de 24 horas</p>
+            <a href="mailto:visionate.py@gmail.com" class="btn btn--outline">Enviar Email</a>
+          </div>
+          <div class="quick-contact-card">
+            <div class="quick-contact__icon">🎯</div>
+            <h3 class="quick-contact__title">Asesoría Personalizada</h3>
+            <p class="quick-contact__desc">Agenda una reunión gratuita de 30 minutos para conocer nuestros servicios</p>
+            <a href="#contact-form" class="btn btn--secondary">Agendar Reunión</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de Contacto Principal -->
+    <section class="section" id="contact-form">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-form">
+            <div class="form-header">
+              <h2 class="form-title">Envíanos tu consulta</h2>
+              <p class="form-subtitle">Completa el formulario y nos pondremos en contacto contigo para brindarte la información que necesitas</p>
+            </div>
+            
+            <form id="contactForm" class="contact-form-fields">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Nombre completo *</label>
+                  <input type="text" class="form-input" name="name" required placeholder="Tu nombre completo">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Apellidos *</label>
+                  <input type="text" class="form-input" name="lastname" required placeholder="Tus apellidos">
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Correo electrónico *</label>
+                  <input type="email" class="form-input" name="email" required placeholder="tu@email.com">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Teléfono *</label>
+                  <input type="tel" class="form-input" name="phone" required placeholder="+593 999 999 999">
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Ciudad</label>
+                  <input type="text" class="form-input" name="city" placeholder="Tu ciudad">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Organización</label>
+                  <input type="text" class="form-input" name="organization" placeholder="Empresa o institución">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label class="form-label">¿Qué te interesa? *</label>
+                <select class="form-input" name="interest" required>
+                  <option value="">Seleccionar opción...</option>
+                  <optgroup label="Programas de Capacitación">
+                    <option value="emprendedor">El Camino del Emprendedor</option>
+                    <option value="jovenes">Mentes Jóvenes, Grandes Sueños</option>
+                    <option value="liderazgo">Liderazgo Inspirador</option>
+                    <option value="docentes">Equipos Docentes con Propósito</option>
+                    <option value="comunicacion">Comunicación Efectiva</option>
+                    <option value="cambio">Gestión del Cambio</option>
+                  </optgroup>
+                  <optgroup label="Servicios Empresariales">
+                    <option value="consultoria">Consultoría Organizacional</option>
+                    <option value="asesoria">Asesoría en Proyectos</option>
+                    <option value="incompany">Capacitación In-Company</option>
+                    <option value="coaching">Coaching Ejecutivo</option>
+                  </optgroup>
+                  <optgroup label="Otros">
+                    <option value="alianza">Alianzas Estratégicas</option>
+                    <option value="becas">Información sobre Becas</option>
+                    <option value="otro">Otro (especificar en mensaje)</option>
+                  </optgroup>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label class="form-label">¿Cuándo te gustaría comenzar?</label>
+                <div class="radio-group">
+                  <label class="radio-label">
+                    <input type="radio" name="timing" value="inmediato">
+                    <span class="radio-custom"></span>
+                    Inmediatamente
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" name="timing" value="1-3-meses">
+                    <span class="radio-custom"></span>
+                    En 1-3 meses
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" name="timing" value="3-6-meses">
+                    <span class="radio-custom"></span>
+                    En 3-6 meses
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" name="timing" value="explorando">
+                    <span class="radio-custom"></span>
+                    Solo estoy explorando
+                  </label>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label class="form-label">Cuéntanos más sobre tu consulta *</label>
+                <textarea class="form-input form-textarea" name="message" required placeholder="Describe tu situación actual, objetivos, expectativas o cualquier información que consideres relevante..."></textarea>
+              </div>
+              
+              <div class="form-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" name="newsletter" value="yes">
+                  <span class="checkbox-custom"></span>
+                  Quiero recibir información sobre nuevos programas y eventos
+                </label>
+              </div>
+              
+              <div class="form-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" name="terms" required>
+                  <span class="checkbox-custom"></span>
+                  Acepto los términos y condiciones y autorizo el tratamiento de mis datos personales
+                </label>
+              </div>
+              
+              <button type="submit" class="btn btn--primary btn--lg form-submit-btn">
+                <span class="btn-text">Enviar consulta</span>
+                <span class="loading" style="display: none;"></span>
+              </button>
+            </form>
+            
+            <div id="formMessage" class="form-message" style="display: none;"></div>
+          </div>
+
+          <div class="contact-info">
+            <div class="info-card">
+              <h3 class="info-card__title">📍 Nuestra Ubicación</h3>
+              <div class="info-item">
+                <div class="info-item__content">
+                  <strong>Dirección:</strong><br>
+                  Thomas Guerron y Manuela Cañizares<br>
+                  La Armenia, Quito - Ecuador
+                </div>
+              </div>
+              <div class="location-map">
+                <div class="map-placeholder">
+                  <p>📍 Ver en Google Maps</p>
+                  <a href="https://maps.google.com" target="_blank" class="btn btn--outline btn--sm">Abrir Mapa</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <h3 class="info-card__title">📞 Información de Contacto</h3>
+              <div class="info-item">
+                <div class="info-item__icon">📧</div>
+                <div class="info-item__content">
+                  <strong>Email:</strong><br>
+                  <a href="mailto:visionate.py@gmail.com">visionate.py@gmail.com</a>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-item__icon">📱</div>
+                <div class="info-item__content">
+                  <strong>Teléfono/WhatsApp:</strong><br>
+                  <a href="tel:+593963613630">+593 963 613 630</a>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-item__icon">🕒</div>
+                <div class="info-item__content">
+                  <strong>Horarios de Atención:</strong><br>
+                  Lunes a Viernes: 8:00 AM - 6:00 PM<br>
+                  Sábados: 9:00 AM - 2:00 PM<br>
+                  Domingos: Solo emergencias
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <h3 class="info-card__title">🌐 Síguenos en Redes</h3>
+              <p class="mb-2">Mantente conectado con nuestra comunidad y accede a contenido exclusivo:</p>
+              <div class="social-links">
+                <a href="#" class="social-link-detailed">
+                  <span class="social-icon">📘</span>
+                  <div>
+                    <strong>Facebook</strong>
+                    <p>Noticias y eventos</p>
+                  </div>
+                </a>
+                <a href="#" class="social-link-detailed">
+                  <span class="social-icon">📷</span>
+                  <div>
+                    <strong>Instagram</strong>
+                    <p>Momentos VISIONATE</p>
+                  </div>
+                </a>
+                <a href="#" class="social-link-detailed">
+                  <span class="social-icon">💼</span>
+                  <div>
+                    <strong>LinkedIn</strong>
+                    <p>Contenido profesional</p>
+                  </div>
+                </a>
+                <a href="#" class="social-link-detailed">
+                  <span class="social-icon">🎥</span>
+                  <div>
+                    <strong>YouTube</strong>
+                    <p>Videos educativos</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="info-card info-card--highlight">
+              <h3 class="info-card__title">⚡ Respuesta Rápida</h3>
+              <p class="mb-2">Nos comprometemos a:</p>
+              <ul class="response-list">
+                <li>📧 Responder emails en menos de 24 horas</li>
+                <li>📞 Contestar llamadas en horario laboral</li>
+                <li>💬 Respuesta inmediata por WhatsApp</li>
+                <li>🎯 Asesoría personalizada gratuita de 30 min</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preguntas Frecuentes de Contacto -->
+    <section class="section section--gray">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Preguntas Frecuentes</h2>
+          <p class="section__subtitle">Resuelve tus dudas antes de contactarnos</p>
+        </div>
+        <div class="faq-container">
+          <div class="faq-item">
+            <h3 class="faq-question">¿La consulta inicial es realmente gratuita?</h3>
+            <div class="faq-answer">
+              <p>Sí, ofrecemos una consulta gratuita de 30 minutos donde analizamos tu situación, objetivos y te recomendamos el mejor programa o servicio para ti. Sin compromiso.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">¿Qué información debo preparar para la consulta?</h3>
+            <div class="faq-answer">
+              <p>Te recomendamos tener claro tus objetivos, situación actual, presupuesto aproximado y tiempo disponible. Si es para una organización, información sobre el equipo y necesidades específicas.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">¿Realizan servicios fuera de Quito?</h3>
+            <div class="faq-answer">
+              <p>Sí, ofrecemos servicios virtuales a nivel nacional e internacional. Para servicios presenciales, evaluamos la posibilidad según la ubicación y alcance del proyecto.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">¿Cuánto tiempo toma recibir una propuesta?</h3>
+            <div class="faq-answer">
+              <p>Después de la consulta inicial, enviamos una propuesta personalizada en un plazo de 2-3 días hábiles. Para proyectos complejos puede tomar hasta una semana.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería de Momentos -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Momentos VISIONATE</h2>
+          <p class="section__subtitle">Conoce más sobre nosotros a través de nuestras experiencias</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="assets/IMG_20250412_153005.jpg" alt="Taller de Liderazgo VISIONATE">
+            <div class="gallery-item__caption">Taller de Liderazgo Inspirador</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/IMG_20250516_165757.jpg" alt="Programa Emprendimiento">
+            <div class="gallery-item__caption">El Camino del Emprendedor</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/IMG_20250627_144148.jpg" alt="Equipo VISIONATE">
+            <div class="gallery-item__caption">Equipo VISIONATE en acción</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/WhatsApp Image 2024-11-09 at 1.58.43 PM(2).jpg" alt="Programa Jóvenes">
+            <div class="gallery-item__caption">Mentes Jóvenes, Grandes Sueños</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="section section--cta">
+      <div class="container">
+        <div class="cta-card">
+          <h2 class="cta-card__title">¿Listo para dar el siguiente paso?</h2>
+          <p class="cta-card__subtitle">No esperes más para comenzar tu transformación. Contáctanos hoy y descubre cómo VISIONATE puede ayudarte a alcanzar tus objetivos</p>
+          <div class="cta-card__actions">
+            <a href="tel:+593963613630" class="btn btn--primary btn--lg">Llamar Ahora</a>
+            <a href="https://wa.me/593963613630" class="btn btn--accent btn--lg">WhatsApp</a>
+            <a href="#contact-form" class="btn btn--outline btn--lg">Llenar Formulario</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__section">
+          <img src="assets/logo.png" alt="VISIONATE Logo" class="footer__logo">
+          <p class="footer__quote">
+            "Cuando educamos desde el ser, sembramos el cambio que el mundo necesita."
+          </p>
+          <div class="footer__social">
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">📷</a>
+            <a href="#" class="social-link">💼</a>
+          </div>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__title">Navegación</h3>
+          <ul class="footer__links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="programas.html">Programas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__title">Contacto Rápido</h3>
+          <ul class="footer__contact">
+            <li>📧 visionate.py@gmail.com</li>
+            <li>📞 +593 963 613 630</li>
+            <li>📍 Quito, La Armenia</li>
+            <li>🕒 Lun-Vie: 8AM-6PM</li>
+          </ul>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__title">Síguenos</h3>
+          <ul class="footer__links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p>&copy; 2025 VISIONATE - Instituto de Capacitación Integral. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+
+  <style>
+    /* Quick Contact Grid */
+    .quick-contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .quick-contact-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 2rem;
+      text-align: center;
+      transition: var(--transition);
+      border: 1px solid var(--gray-200);
+    }
+
+    .quick-contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .quick-contact__icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .quick-contact__title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .quick-contact__desc {
+      color: var(--gray-600);
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+
+    .btn--accent {
+      background: var(--accent);
+      color: var(--white);
+    }
+
+    .btn--accent:hover {
+      background: #2fb068;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .btn--secondary {
+      background: var(--gold);
+      color: var(--primary);
+    }
+
+    .btn--secondary:hover {
+      background: #c19b1f;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    /* Contact Form Styles */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 4rem;
+      margin-top: 3rem;
+    }
+
+    .contact-form {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      padding: 3rem;
+    }
+
+    .form-header {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .form-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .form-subtitle {
+      color: var(--gray-600);
+      font-size: 1.1rem;
+    }
+
+    .contact-form-fields {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-label {
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 0.875rem 1rem;
+      border: 2px solid var(--gray-200);
+      border-radius: var(--radius);
+      font-size: 1rem;
+      transition: var(--transition);
+      font-family: inherit;
+      background: var(--white);
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: var(--secondary);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+
+    .form-input.error {
+      border-color: #dc2626;
+      box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+    }
+
+    .form-textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    /* Radio and Checkbox Styles */
+    .radio-group {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .radio-label,
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      cursor: pointer;
+      color: var(--gray-700);
+      font-size: 0.95rem;
+    }
+
+    .radio-label input[type="radio"],
+    .checkbox-label input[type="checkbox"] {
+      display: none;
+    }
+
+    .radio-custom,
+    .checkbox-custom {
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--gray-300);
+      border-radius: 50%;
+      position: relative;
+      transition: var(--transition);
+      flex-shrink: 0;
+    }
+
+    .checkbox-custom {
+      border-radius: 4px;
+    }
+
+    .radio-label input[type="radio"]:checked + .radio-custom,
+    .checkbox-label input[type="checkbox"]:checked + .checkbox-custom {
+      border-color: var(--secondary);
+      background: var(--secondary);
+    }
+
+    .radio-custom::after {
+      content: '';
+      width: 8px;
+      height: 8px;
+      background: var(--white);
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      transition: var(--transition);
+    }
+
+    .checkbox-custom::after {
+      content: '✓';
+      color: var(--white);
+      font-size: 12px;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      transition: var(--transition);
+    }
+
+    .radio-label input[type="radio"]:checked + .radio-custom::after,
+    .checkbox-label input[type="checkbox"]:checked + .checkbox-custom::after {
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    .form-submit-btn {
+      margin-top: 1rem;
+      width: 100%;
+      justify-content: center;
+    }
+
+    /* Contact Info Sidebar */
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .info-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 2rem;
+      border: 1px solid var(--gray-200);
+    }
+
+    .info-card--highlight {
+      background: linear-gradient(135deg, var(--gray-50), var(--gray-100));
+      border-left: 4px solid var(--accent);
+    }
+
+    .info-card__title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .info-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .info-item__icon {
+      font-size: 1.5rem;
+      margin-top: 0.25rem;
+    }
+
+    .info-item__content {
+      flex: 1;
+    }
+
+    .info-item__content a {
+      color: var(--secondary);
+      text-decoration: none;
+    }
+
+    .info-item__content a:hover {
+      text-decoration: underline;
+    }
+
+    /* Social Links */
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .social-link-detailed {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      background: var(--gray-50);
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: var(--transition);
+      border: 1px solid var(--gray-200);
+    }
+
+    .social-link-detailed:hover {
+      background: var(--gray-100);
+      transform: translateX(5px);
+    }
+
+    .social-icon {
+      font-size: 2rem;
+    }
+
+    .social-link-detailed strong {
+      color: var(--primary);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .social-link-detailed p {
+      color: var(--gray-600);
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    /* Map Placeholder */
+    .location-map {
+      margin-top: 1rem;
+    }
+
+    .map-placeholder {
+      background: var(--gray-100);
+      border-radius: var(--radius);
+      padding: 2rem;
+      text-align: center;
+      border: 2px dashed var(--gray-300);
+    }
+
+    .map-placeholder p {
+      color: var(--gray-600);
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    /* Response List */
+    .response-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .response-list li {
+      padding: 0.5rem 0;
+      color: var(--gray-700);
+      font-size: 0.95rem;
+    }
+
+    /* FAQ Styles (reusing from services page) */
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+
+    .faq-question {
+      background: var(--gray-50);
+      padding: 1.5rem;
+      margin: 0;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      color: var(--primary);
+      border-bottom: 1px solid var(--gray-200);
+      transition: var(--transition);
+    }
+
+    .faq-question:hover {
+      background: var(--gray-100);
+    }
+
+    .faq-answer {
+      padding: 1.5rem;
+      display: none;
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    .faq-question::after {
+      content: '+';
+      float: right;
+      font-size: 1.5rem;
+      font-weight: bold;
+      transition: var(--transition);
+    }
+
+    .faq-item.active .faq-question::after {
+      content: '-';
+    }
+
+    /* Form Message */
+    .form-message {
+      margin-top: 2rem;
+      padding: 1rem;
+      border-radius: var(--radius);
+      font-weight: 500;
+    }
+
+    .form-message--success {
+      background: #dcfce7;
+      color: #166534;
+      border: 1px solid #bbf7d0;
+    }
+
+    .form-message--error {
+      background: #fef2f2;
+      color: #dc2626;
+      border: 1px solid #fecaca;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+      
+      .quick-contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .contact-form {
+        padding: 2rem;
+      }
+      
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+      
+      .radio-group {
+        grid-template-columns: 1fr;
+      }
+      
+      .quick-contact-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .form-title {
+        font-size: 1.75rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .contact-form {
+        padding: 1.5rem;
+      }
+      
+      .quick-contact-card {
+        padding: 1.5rem;
+      }
+      
+      .info-card {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // FAQ Functionality
+      document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+          const faqItem = question.parentElement;
+          const isActive = faqItem.classList.contains('active');
+          
+          // Close all FAQ items
+          document.querySelectorAll('.faq-item').forEach(item => {
+            item.classList.remove('active');
+          });
+          
+          // Open clicked item if it wasn't active
+          if (!isActive) {
+            faqItem.classList.add('active');
+          }
+        });
+      });
+
+      // Enhanced form validation
+      const form = document.getElementById('contactForm');
+      const inputs = form.querySelectorAll('input, select, textarea');
+      
+      // Real-time validation
+      inputs.forEach(input => {
+        input.addEventListener('blur', () => {
+          validateField(input);
+        });
+        
+        input.addEventListener('input', () => {
+          if (input.classList.contains('error')) {
+            validateField(input);
+          }
+        });
+      });
+
+      function validateField(field) {
+        const value = field.value.trim();
+        const isRequired = field.hasAttribute('required');
+        let isValid = true;
+
+        // Required field validation
+        if (isRequired && !value) {
+          isValid = false;
+        }
+
+        // Email validation
+        if (field.type === 'email' && value) {
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          if (!emailRegex.test(value)) {
+            isValid = false;
+          }
+        }
+
+        // Phone validation (basic)
+        if (field.type === 'tel' && value) {
+          const phoneRegex = /^[\+]?[\d\s\-\(\)]{8,}$/;
+          if (!phoneRegex.test(value)) {
+            isValid = false;
+          }
+        }
+
+        // Update UI
+        if (isValid) {
+          field.classList.remove('error');
+        } else {
+          field.classList.add('error');
+        }
+
+        return isValid;
+      }
+
+      // Phone number formatting
+      const phoneInput = document.querySelector('input[name="phone"]');
+      if (phoneInput) {
+        phoneInput.addEventListener('input', (e) => {
+          let value = e.target.value.replace(/\D/g, '');
+          if (value.startsWith('593')) {
+            value = '+' + value;
+          } else if (value.startsWith('0')) {
+            value = '+593' + value.substring(1);
+          } else if (value.length === 9) {
+            value = '+593' + value;
+          }
+          e.target.value = value;
+        });
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Programas - VISIONATE Instituto de Capacitación Integral</title>
+  <meta name="description" content="Descubre nuestros programas de formación integral: emprendimiento, liderazgo, educación y desarrollo personal. Experiencias transformadoras diseñadas para diferentes audiencias.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <img src="assets/logo.png" alt="VISIONATE Logo" class="logo">
+        
+        <nav class="nav">
+          <ul class="nav__menu">
+            <li><a href="index.html" class="nav__link">Inicio</a></li>
+            <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+            <li><a href="servicios.html" class="nav__link">Servicios</a></li>
+            <li><a href="programas.html" class="nav__link active">Programas</a></li>
+            <li><a href="contacto.html" class="nav__link">Contacto</a></li>
+          </ul>
+          <a href="contacto.html" class="btn btn--primary">Consulta Gratuita</a>
+        </nav>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <nav>
+        <a href="index.html" class="nav__link">Inicio</a>
+        <a href="nosotros.html" class="nav__link">Nosotros</a>
+        <a href="servicios.html" class="nav__link">Servicios</a>
+        <a href="programas.html" class="nav__link">Programas</a>
+        <a href="contacto.html" class="nav__link">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 70vh;">
+      <img src="assets/IMG_20250516_165757.jpg" alt="Equipo VISIONATE en capacitación" class="hero__background">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Nuestros <span class="text-highlight">Programas</span>
+          </h1>
+          <p class="hero__subtitle">
+            Experiencias transformadoras diseñadas para despertar tu potencial y generar impacto duradero
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filtros de Programas -->
+    <section class="section section--gray">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Encuentra tu Programa Ideal</h2>
+          <p class="section__subtitle">Filtra por categoría para encontrar la experiencia perfecta para ti</p>
+        </div>
+        <div class="program-filters">
+          <button class="filter-btn active" data-filter="all">Todos los Programas</button>
+          <button class="filter-btn" data-filter="emprendimiento">Emprendimiento</button>
+          <button class="filter-btn" data-filter="liderazgo">Liderazgo</button>
+          <button class="filter-btn" data-filter="educacion">Educación</button>
+          <button class="filter-btn" data-filter="desarrollo">Desarrollo Personal</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programas Detallados -->
+    <section class="section">
+      <div class="container">
+        <!-- El Camino del Emprendedor -->
+        <div class="program-detail" data-category="emprendimiento" id="emprendedor">
+          <div class="program-detail__header">
+            <div class="program-detail__badge">Más Popular</div>
+            <div class="program-detail__icon">🚀</div>
+            <div class="program-detail__title-section">
+              <h2 class="program-detail__title">El Camino del Emprendedor</h2>
+              <p class="program-detail__subtitle">Desarrolla tu mentalidad emprendedora y convierte tu idea en un negocio exitoso</p>
+            </div>
+            <div class="program-detail__meta">
+              <div class="program-meta__item">
+                <span class="meta-label">Duración</span>
+                <span class="meta-value">8 semanas</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Horas</span>
+                <span class="meta-value">32 horas</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Modalidad</span>
+                <span class="meta-value">Presencial/Virtual</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Inversión</span>
+                <span class="meta-value price">$350</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="program-detail__content">
+            <div class="program-content__main">
+              <h3 class="mb-2">🎯 ¿Para quién es este programa?</h3>
+              <p class="mb-3">
+                Dirigido a emprendedores, futuros empresarios, profesionales que buscan desarrollar proyectos propios y cualquier persona con una idea de negocio que desee convertirla en realidad.
+              </p>
+              
+              <h3 class="mb-2">📚 Módulos del Programa</h3>
+              <div class="modules-grid">
+                <div class="module-card">
+                  <h4>Módulo 1: Mentalidad Emprendedora</h4>
+                  <p>Desarrollo de mindset, superación de miedos, identificación de oportunidades</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 2: Validación de Ideas</h4>
+                  <p>Técnicas de validación, investigación de mercado, análisis de viabilidad</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 3: Modelo de Negocio Canvas</h4>
+                  <p>Diseño del modelo de negocio, propuesta de valor, segmentación</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 4: Plan Financiero Básico</h4>
+                  <p>Proyecciones financieras, costos, pricing, fuentes de financiamiento</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 5: Marketing Digital</h4>
+                  <p>Estrategias digitales, redes sociales, posicionamiento de marca</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 6: Liderazgo y Equipos</h4>
+                  <p>Formación de equipos, delegación, cultura organizacional</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 7: Pitch y Presentación</h4>
+                  <p>Técnicas de presentación, storytelling, captación de inversores</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 8: Networking Efectivo</h4>
+                  <p>Construcción de redes, alianzas estratégicas, mentoría</p>
+                </div>
+              </div>
+              
+              <h3 class="mb-2 mt-4">🏆 Resultados Esperados</h3>
+              <ul class="results-list">
+                <li>Plan de negocio completo y validado</li>
+                <li>Modelo financiero funcional</li>
+                <li>Estrategia de marketing definida</li>
+                <li>Red de contactos ampliada</li>
+                <li>Mentalidad emprendedora fortalecida</li>
+                <li>Herramientas para la ejecución</li>
+              </ul>
+            </div>
+            
+            <div class="program-content__sidebar">
+              <div class="program-info-card">
+                <h4>📅 Próximas Fechas</h4>
+                <div class="date-option">
+                  <strong>Modalidad Presencial</strong>
+                  <p>Inicio: 15 de Marzo 2025</p>
+                  <p>Horario: Sábados 8:00-12:00</p>
+                </div>
+                <div class="date-option">
+                  <strong>Modalidad Virtual</strong>
+                  <p>Inicio: 22 de Marzo 2025</p>
+                  <p>Horario: Martes y Jueves 19:00-21:00</p>
+                </div>
+              </div>
+              
+              <div class="program-info-card">
+                <h4>🎁 Incluye</h4>
+                <ul class="includes-list">
+                  <li>Material digital completo</li>
+                  <li>Plantillas y herramientas</li>
+                  <li>Sesiones de mentorìa</li>
+                  <li>Certificado de participación</li>
+                  <li>Acceso a comunidad alumni</li>
+                  <li>3 meses de seguimiento</li>
+                </ul>
+              </div>
+              
+              <div class="program-info-card">
+                <h4>💳 Facilidades de Pago</h4>
+                <p class="mb-2">Ofrecemos opciones flexibles:</p>
+                <ul class="payment-options">
+                  <li>Pago único: 10% descuento</li>
+                  <li>2 pagos sin interés</li>
+                  <li>3 pagos con 5% interés</li>
+                  <li>Becas disponibles (20%)</li>
+                </ul>
+              </div>
+              
+              <div class="cta-sidebar">
+                <a href="contacto.html" class="btn btn--primary btn--lg">Inscribirme Ahora</a>
+                <a href="contacto.html" class="btn btn--outline">Solicitar Información</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mentes Jóvenes, Grandes Sueños -->
+        <div class="program-detail" data-category="desarrollo" id="jovenes">
+          <div class="program-detail__header">
+            <div class="program-detail__icon">✨</div>
+            <div class="program-detail__title-section">
+              <h2 class="program-detail__title">Mentes Jóvenes, Grandes Sueños</h2>
+              <p class="program-detail__subtitle">Programa de desarrollo integral para jóvenes líderes del futuro</p>
+            </div>
+            <div class="program-detail__meta">
+              <div class="program-meta__item">
+                <span class="meta-label">Duración</span>
+                <span class="meta-value">6 semanas</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Horas</span>
+                <span class="meta-value">24 horas</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Modalidad</span>
+                <span class="meta-value">Presencial</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Inversión</span>
+                <span class="meta-value price">$250</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="program-detail__content">
+            <div class="program-content__main">
+              <h3 class="mb-2">🎯 ¿Para quién es este programa?</h3>
+              <p class="mb-3">
+                Diseñado especialmente para jóvenes entre 15 y 25 años que buscan desarrollar su potencial, definir su propósito de vida y adquirir herramientas para ser líderes positivos en sus comunidades.
+              </p>
+              
+              <h3 class="mb-2">📚 Módulos del Programa</h3>
+              <div class="modules-grid">
+                <div class="module-card">
+                  <h4>Módulo 1: Autoconocimiento y Propósito</h4>
+                  <p>Descubrimiento personal, fortalezas, valores, misión de vida</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 2: Inteligencia Emocional</h4>
+                  <p>Gestión emocional, empatía, relaciones interpersonales</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 3: Habilidades de Comunicación</h4>
+                  <p>Comunicación asertiva, escucha activa, presentaciones</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 4: Liderazgo Juvenil</h4>
+                  <p>Estilos de liderazgo, influencia positiva, trabajo en equipo</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 5: Proyecto de Vida</h4>
+                  <p>Planificación personal, metas, estrategias de logro</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 6: Emprendimiento Social</h4>
+                  <p>Impacto social, proyectos comunitarios, sostenibilidad</p>
+                </div>
+              </div>
+              
+              <h3 class="mb-2 mt-4">🏆 Resultados Esperados</h3>
+              <ul class="results-list">
+                <li>Mayor autoconocimiento y confianza</li>
+                <li>Plan de vida personal definido</li>
+                <li>Habilidades de liderazgo desarrolladas</li>
+                <li>Proyecto social implementado</li>
+                <li>Red de jóvenes líderes</li>
+                <li>Herramientas para el éxito académico y profesional</li>
+              </ul>
+            </div>
+            
+            <div class="program-content__sidebar">
+              <div class="program-info-card">
+                <h4>📅 Próximas Fechas</h4>
+                <div class="date-option">
+                  <strong>Grupo Matutino</strong>
+                  <p>Inicio: 5 de Abril 2025</p>
+                  <p>Horario: Sábados 9:00-13:00</p>
+                </div>
+                <div class="date-option">
+                  <strong>Grupo Vespertino</strong>
+                  <p>Inicio: 12 de Abril 2025</p>
+                  <p>Horario: Sábados 14:00-18:00</p>
+                </div>
+              </div>
+              
+              <div class="program-info-card">
+                <h4>🎁 Incluye</h4>
+                <ul class="includes-list">
+                  <li>Workbook personalizado</li>
+                  <li>Test de personalidad profesional</li>
+                  <li>Mentorìa grupal</li>
+                  <li>Certificado de liderazgo juvenil</li>
+                  <li>Acceso a red de jóvenes líderes</li>
+                  <li>Seguimiento por 6 meses</li>
+                </ul>
+              </div>
+              
+              <div class="program-info-card">
+                <h4>🎓 Becas Especiales</h4>
+                <p class="mb-2">Becas del 50% disponibles para:</p>
+                <ul class="payment-options">
+                  <li>Estudiantes de colegios públicos</li>
+                  <li>Jóvenes de comunidades vulnerables</li>
+                  <li>Líderes estudiantiles destacados</li>
+                </ul>
+              </div>
+              
+              <div class="cta-sidebar">
+                <a href="contacto.html" class="btn btn--primary btn--lg">Inscribirme Ahora</a>
+                <a href="contacto.html" class="btn btn--outline">Solicitar Beca</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Liderazgo Inspirador -->
+        <div class="program-detail" data-category="liderazgo" id="liderazgo">
+          <div class="program-detail__header">
+            <div class="program-detail__icon">👑</div>
+            <div class="program-detail__title-section">
+              <h2 class="program-detail__title">Liderazgo Inspirador</h2>
+              <p class="program-detail__subtitle">Desarrolla habilidades de liderazgo transformacional para el siglo XXI</p>
+            </div>
+            <div class="program-detail__meta">
+              <div class="program-meta__item">
+                <span class="meta-label">Duración</span>
+                <span class="meta-value">10 semanas</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Horas</span>
+                <span class="meta-value">40 horas</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Modalidad</span>
+                <span class="meta-value">Híbrida</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Inversión</span>
+                <span class="meta-value price">$450</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="program-detail__content">
+            <div class="program-content__main">
+              <h3 class="mb-2">🎯 ¿Para quién es este programa?</h3>
+              <p class="mb-3">
+                Dirigido a directivos, gerentes, supervisores y profesionales que ocupan o aspiran a posiciones de liderazgo en organizaciones de cualquier sector.
+              </p>
+              
+              <h3 class="mb-2">📚 Módulos del Programa</h3>
+              <div class="modules-grid">
+                <div class="module-card">
+                  <h4>Módulo 1: Liderazgo Transformacional</h4>
+                  <p>Fundamentos, estilos de liderazgo, autoliderazgo</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 2: Comunicación Asertiva</h4>
+                  <p>Comunicación efectiva, feedback, conversaciones difíciles</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 3: Gestión de Equipos</h4>
+                  <p>Formación de equipos, motivación, desarrollo del talento</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 4: Toma de Decisiones</h4>
+                  <p>Pensamiento estratégico, análisis, decisiones bajo presión</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 5: Manejo de Conflictos</h4>
+                  <p>Resolución de conflictos, negociación, mediación</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 6: Coaching Ejecutivo</h4>
+                  <p>Herramientas de coaching, desarrollo de colaboradores</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 7: Cultura Organizacional</h4>
+                  <p>Transformación cultural, valores, engagement</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 8: Liderazgo en Crisis</h4>
+                  <p>Gestión de crisis, resiliencia, adaptabilidad</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="program-content__sidebar">
+              <div class="program-info-card">
+                <h4>📅 Próximas Fechas</h4>
+                <div class="date-option">
+                  <strong>Modalidad Ejecutiva</strong>
+                  <p>Inicio: 1 de Mayo 2025</p>
+                  <p>Horario: Viernes 18:00-22:00 + Sábados 8:00-12:00</p>
+                </div>
+              </div>
+              
+              <div class="program-info-card">
+                <h4>🎁 Incluye</h4>
+                <ul class="includes-list">
+                  <li>Evaluación 360° inicial y final</li>
+                  <li>Plan de desarrollo personalizado</li>
+                  <li>4 sesiones de coaching individual</li>
+                  <li>Certificación internacional</li>
+                  <li>Acceso a comunidad de líderes</li>
+                  <li>12 meses de seguimiento</li>
+                </ul>
+              </div>
+              
+              <div class="cta-sidebar">
+                <a href="contacto.html" class="btn btn--primary btn--lg">Inscribirme Ahora</a>
+                <a href="contacto.html" class="btn btn--outline">Más Información</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Equipos Docentes con Propósito -->
+        <div class="program-detail" data-category="educacion" id="docentes">
+          <div class="program-detail__header">
+            <div class="program-detail__icon">📚</div>
+            <div class="program-detail__title-section">
+              <h2 class="program-detail__title">Equipos Docentes con Propósito</h2>
+              <p class="program-detail__subtitle">Transformación pedagógica para educadores del siglo XXI</p>
+            </div>
+            <div class="program-detail__meta">
+              <div class="program-meta__item">
+                <span class="meta-label">Duración</span>
+                <span class="meta-value">12 semanas</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Horas</span>
+                <span class="meta-value">48 horas</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Modalidad</span>
+                <span class="meta-value">Presencial</span>
+              </div>
+              <div class="program-meta__item">
+                <span class="meta-label">Inversión</span>
+                <span class="meta-value price">$380</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="program-detail__content">
+            <div class="program-content__main">
+              <h3 class="mb-2">🎯 ¿Para quién es este programa?</h3>
+              <p class="mb-3">
+                Diseñado para educadores, directivos académicos, coordinadores pedagógicos y todos los profesionales comprometidos con la transformación educativa.
+              </p>
+              
+              <h3 class="mb-2">📚 Módulos del Programa</h3>
+              <div class="modules-grid">
+                <div class="module-card">
+                  <h4>Módulo 1: Pedagogía Transformadora</h4>
+                  <p>Nuevos paradigmas educativos, educación desde el ser</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 2: Metodologías Activas</h4>
+                  <p>Aprendizaje basado en proyectos, flipped classroom</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 3: Evaluación Formativa</h4>
+                  <p>Nuevos enfoques de evaluación, feedback efectivo</p>
+                </div>
+                <div class="module-card">
+                  <h4>Módulo 4: Tecnología Educativa</h4>
+                  <p>Herramientas digitales, educación híbrida</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="program-content__sidebar">
+              <div class="program-info-card">
+                <h4>🏫 Modalidad Institucional</h4>
+                <p>Ofrecemos este programa para instituciones educativas completas con descuentos especiales por volumen.</p>
+              </div>
+              
+              <div class="cta-sidebar">
+                <a href="contacto.html" class="btn btn--primary btn--lg">Consultar para mi Institución</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Objetivo General -->
+    <section class="section section--testimonials">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section__title text-white">Nuestro Objetivo General</h2>
+          <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; color: white; opacity: 0.9;">
+            Impulsamos el desarrollo integral de individuos, emprendedores y equipos a través de experiencias de aprendizaje innovadoras, vivenciales y centradas en el ser humano, generando transformaciones duraderas que impacten positivamente en sus vidas y comunidades.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--cta">
+      <div class="container">
+        <div class="cta-card">
+          <h2 class="cta-card__title">¿Listo para comenzar tu transformación?</h2>
+          <p class="cta-card__subtitle">Elige el programa que mejor se adapte a tus objetivos y da el primer paso hacia tu crecimiento</p>
+          <div class="cta-card__actions">
+            <a href="contacto.html" class="btn btn--primary btn--lg">Solicitar Asesoría Personalizada</a>
+            <a href="contacto.html" class="btn btn--outline btn--lg">Agendar Reunión Informativa</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__section">
+          <img src="assets/logo.png" alt="VISIONATE Logo" class="footer__logo">
+          <p class="footer__quote">
+            "Cuando educamos desde el ser, sembramos el cambio que el mundo necesita."
+          </p>
+          <div class="footer__social">
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">📷</a>
+            <a href="#" class="social-link">💼</a>
+          </div>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__title">Navegación</h3>
+          <ul class="footer__links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="programas.html">Programas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__title">Programas</h3>
+          <ul class="footer__links">
+            <li><a href="#emprendedor">El Camino del Emprendedor</a></li>
+            <li><a href="#jovenes">Mentes Jóvenes, Grandes Sueños</a></li>
+            <li><a href="#liderazgo">Liderazgo Inspirador</a></li>
+            <li><a href="#docentes">Equipos Docentes con Propósito</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__section">
+          <h3 class="footer__title">Contacto</h3>
+          <ul class="footer__contact">
+            <li>📧 visionate.py@gmail.com</li>
+            <li>📞 +593 963 613 630</li>
+            <li>📍 Quito, La Armenia</li>
+            <li>🕒 Lun-Vie: 8AM-6PM</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p>&copy; 2025 VISIONATE - Instituto de Capacitación Integral. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+
+  <style>
+    /* Program Filters */
+    .program-filters {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    .filter-btn {
+      background: var(--white);
+      color: var(--primary);
+      border: 2px solid var(--gray-200);
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--radius);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--secondary);
+      color: var(--white);
+      border-color: var(--secondary);
+    }
+
+    /* Program Detail */
+    .program-detail {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      margin-bottom: 4rem;
+      overflow: hidden;
+      border: 1px solid var(--gray-200);
+    }
+
+    .program-detail__header {
+      background: linear-gradient(135deg, var(--gray-50), var(--gray-100));
+      padding: 2rem;
+      position: relative;
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    .program-detail__badge {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius);
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+
+    .program-detail__icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+
+    .program-detail__title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .program-detail__subtitle {
+      font-size: 1.2rem;
+      color: var(--gray-600);
+      margin-bottom: 2rem;
+    }
+
+    .program-detail__meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+
+    .program-meta__item {
+      text-align: center;
+      padding: 1rem;
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .meta-label {
+      display: block;
+      font-size: 0.875rem;
+      color: var(--gray-600);
+      margin-bottom: 0.25rem;
+    }
+
+    .meta-value {
+      display: block;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      color: var(--primary);
+      font-size: 1.1rem;
+    }
+
+    .meta-value.price {
+      color: var(--secondary);
+      font-size: 1.5rem;
+    }
+
+    /* Program Content */
+    .program-detail__content {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 3rem;
+      padding: 3rem;
+    }
+
+    .program-content__main h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    /* Modules Grid */
+    .modules-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .module-card {
+      background: var(--gray-50);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      border-left: 4px solid var(--accent);
+    }
+
+    .module-card h4 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .module-card p {
+      color: var(--gray-600);
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    /* Results List */
+    .results-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .results-list li {
+      padding: 0.5rem 0;
+      position: relative;
+      padding-left: 2rem;
+      color: var(--gray-700);
+    }
+
+    .results-list li::before {
+      content: '🎯';
+      position: absolute;
+      left: 0;
+      font-size: 1.2rem;
+    }
+
+    /* Sidebar */
+    .program-content__sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .program-info-card {
+      background: var(--gray-50);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      border: 1px solid var(--gray-200);
+    }
+
+    .program-info-card h4 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .date-option {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      background: var(--white);
+      border-radius: var(--radius);
+      border-left: 3px solid var(--secondary);
+    }
+
+    .date-option:last-child {
+      margin-bottom: 0;
+    }
+
+    .date-option strong {
+      color: var(--primary);
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .date-option p {
+      margin: 0;
+      color: var(--gray-600);
+      font-size: 0.9rem;
+    }
+
+    .includes-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .includes-list li {
+      padding: 0.5rem 0;
+      position: relative;
+      padding-left: 1.5rem;
+      color: var(--gray-700);
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    .includes-list li:last-child {
+      border-bottom: none;
+    }
+
+    .includes-list li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    .payment-options {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .payment-options li {
+      padding: 0.25rem 0;
+      color: var(--gray-700);
+      font-size: 0.9rem;
+    }
+
+    .cta-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .program-detail__content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      
+      .program-detail__meta {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .program-detail__header {
+        padding: 1.5rem;
+      }
+      
+      .program-detail__title {
+        font-size: 2rem;
+      }
+      
+      .program-detail__content {
+        padding: 2rem 1.5rem;
+      }
+      
+      .modules-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .program-detail__meta {
+        grid-template-columns: 1fr;
+      }
+      
+      .filter-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .program-detail__header {
+        padding: 1rem;
+      }
+      
+      .program-detail__content {
+        padding: 1.5rem 1rem;
+      }
+      
+      .program-filters {
+        gap: 0.5rem;
+      }
+      
+      .filter-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+
+  <script>
+    // Program Filter Functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const programDetails = document.querySelectorAll('.program-detail');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+          
+          // Update active button
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          
+          // Filter program cards
+          programDetails.forEach(program => {
+            if (filter === 'all' || program.getAttribute('data-category') === filter) {
+              program.style.display = 'block';
+              program.style.opacity = '0';
+              setTimeout(() => {
+                program.style.opacity = '1';
+              }, 100);
+            } else {
+              program.style.opacity = '0';
+              setTimeout(() => {
+                program.style.display = 'none';
+              }, 300);
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
